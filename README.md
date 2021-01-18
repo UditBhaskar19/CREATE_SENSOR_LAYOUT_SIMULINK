@@ -138,10 +138,6 @@ The Fusion Model System has two subsystems :-
 ![](https://github.com/UditBhaskar91/Sensor_Layout_6_Radars_8_Cameras_Spatial_Allignment/blob/main/Images/0_Architecture_main_view_7.JPG)
 <br/><br/><br/><br/>
 
-## 4. SENSOR MEASUREMENTS PLOT :-
-![](https://github.com/UditBhaskar91/Sensor_Layout_6_Radars_8_Cameras_Spatial_Allignment/blob/main/Images/00_Scenario_2.JPG)
-**Fig 23 : Scenario Description**
-<br/><br/><br/><br/>
 
-## 5. FRAME ARCHITECTURE OF FUSION FRAMEWORK :-
+## 4. FRAME ARCHITECTURE OF FUSION FRAMEWORK :-
 (Work In Progress !!!...)
