@@ -1,9 +1,9 @@
 ## SENSOR LAYOUT FOR 6 RADARS & 8 CAMERAS FOR AUTOMATED DRIVING APPLICATIONS
 ![](https://github.com/UditBhaskar91/Multi-Sensor-Data-Fusion-for-Automated-Driving/blob/master/Images/SensorLayout_6Radars_8Cameras.PNG)
 ## SENSOR FOV CHARACTERIZATION USING GRID FOR 6 RADARS & 8 CAMERAS (Configurations : Radar Only, Camera Only, Radar + Camera)
-# The first row of images corresponds to different sensor fov overlap zones for different sensor suite configurations
-# The second row of images corresponds to confidence of fov for different sensor suite configurations
-![](https://github.com/UditBhaskar91/Multi-Sensor-Data-Fusion-for-Automated-Driving/blob/master/Images/SensorLayout_6Radars_8Cameras.PNG)
+#### The first row of images corresponds to different sensor fov overlap zones for different sensor suite configurations
+#### The second row of images corresponds to confidence of fov for different sensor suite configurations
+![](https://github.com/UditBhaskar91/Multi-Sensor-Data-Fusion-for-Automated-Driving/blob/master/Images/GRID_vis.png)
 ## 0. OVERVIEW :-
 #### We have an array of sensors installed around the ego vehicle for differenent ADAS/AD applications. In theory each of the sensors in the sensor array can have different sensor mode and each of the sensor modes can have variations. For example in this project we have two types of sensors: RADAR & CAMERA. RADAR mode has variations: SRR (Short Range Radar) & LRR (Long Range Radar). CAMERA has variations: NFOV (Narrow Field of View) & WFOV (Wide Field of View). Hence we need an architecture such that the fusion algorithm can support multiple sensors with variations in sensor catagories and types. This project aims at creating a mapping (which is being referred as SENSOR LAYOUT) between the measurements and the sensor parameters (intrinsic and extrinsic parameters) by first systematically creating an array of structures of Sensor IDs and Sensor Parameters, and finally linking each of the measurements with the corresponding sensor ID. The implementation is in SIMULINK 2018a version.
 ![](https://github.com/UditBhaskar91/Multi-Sensor-Data-Fusion-for-Automated-Driving/blob/master/Images/SensorMeasurementsSimulatedData.gif)
