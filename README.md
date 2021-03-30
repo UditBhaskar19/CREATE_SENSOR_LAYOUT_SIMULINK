@@ -141,7 +141,3 @@ The Fusion Model System has two subsystems :-
 
 ![](https://github.com/UditBhaskar19/CREATE_SENSOR_LAYOUT_SIMULINK/blob/main/Images/0_Architecture_main_view_7.JPG)
 <br/><br/><br/><br/>
-
-
-## 4. FRAME ARCHITECTURE OF FUSION FRAMEWORK :-
-(Work In Progress !!!...)
