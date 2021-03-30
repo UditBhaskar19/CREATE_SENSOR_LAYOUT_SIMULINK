@@ -17,7 +17,7 @@
 | **Perform Spatial Allignment** | Subsystem Detail Design for the Coordinate transformation from sensor frame to ego vehicle frame |
 | **Generate and set sensor measurements** | Subsystem Detail Design for Sensor Data Generation (input to fusion subsystem) |
 | **Plots of the measurements** | Before coordinate transformation and after coordinate transformation |
-| **Complete architecture of the Fusion Framework** | Frame Model for the complete fusion frame work (Under Progress) |
+| **Complete architecture of the Fusion Framework** | Frame Model for the complete fusion frame work |
 
 ## 1. ARCHITECTURE MAIN :-
 The Fusion Model System has two subsystems :-
@@ -29,7 +29,7 @@ The Fusion Model System has two subsystems :-
 * Temporal Allignment.
 * Data Association and State Estimation.
 * Track management.
-#### This project shall discuss on the detail design of SENSOR LAYOUT and SPATIAL ALLIGNMENT. The remaining blocks are depicted as part of Frame Model.
+#### This project shall discuss on the detail design of SENSOR LAYOUT, GRID, SPATIAL ALLIGNMENT, CLUSTERING. The remaining blocks are depicted as part of Frame Model.
 
 ![](https://github.com/UditBhaskar19/CREATE_SENSOR_LAYOUT_SIMULINK/blob/main/Images/00_Architecture_main_view_1.JPG)
 **Fig 1 : Fusion Model hierarchical structure overview**
